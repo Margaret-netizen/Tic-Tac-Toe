@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- First Player Score -->
- <div>
-<div class="flex flex-row gap-[180px]  mt-[60px] ml-[600px]">
-    <p class="h-[40px] w-[30px] bg-gray-300 p-2.5 rounded-lg" id="score-1"> 0</p>
-    <div class="font-mono font-bold">
-        <p><img src="cross.png" alt="" width="40"></p>
-        <p>Player</p>
-    </div>
-    
-</div>
-    <div class="grid grid-cols-3 gap-4 w-64  mt-[20px] ml-[600px]">
+    <div>
+      <div class="flex flex-row gap-[180px] mt-[60px] ml-[600px]">
+        <p class="h-[40px] w-[30px] bg-gray-300 p-2.5 rounded-lg" id="score-1">
+          0
+        </p>
+        <div class="font-mono font-bold">
+          <p><img src="cross.png" alt="" width="40" /></p>
+          <p>Player</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 gap-4 w-64 mt-[20px] ml-[600px]">
         <!-- Each cell in the Tic-Tac-Toe board -->
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center  cursor-pointer"
-            id="cell-1"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center  cursor-pointer"
-            id="cell-2"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer"
-            id="cell-3"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer"
-            id="cell-4"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer"
-            id="cell-5"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer"
-            id="cell-6"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer"
-            id="cell-7"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer"
-            id="cell-8"></div>
-        <div class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer"
-            id="cell-9"></div>
-</div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+        <div
+          class="w-20 h-20 bg-white border-2 border-gray-300 flex justify-center cursor-pointer cell"
+        ></div>
+      </div>
 
-<!-- Second Player Score -->
-<div class="flex flex-row gap-[180px]  mt-[20px] ml-[600px]">
-    <p class="h-[40px] w-[30px] bg-gray-300 p-2.5 rounded-lg"> 0</p>
-    <div class="font-mono font-bold">
-        <p><img src="circle.png" alt="" width="40" id="score-2"></p>
-        <p>Player</p>
+      <!-- Second Player Score -->
+      <div class="flex flex-row gap-[180px] mt-[20px] ml-[600px]">
+        <p class="h-[40px] w-[30px] bg-gray-300 p-2.5 rounded-lg">0</p>
+        <div class="font-mono font-bold">
+          <p><img src="circle.png" alt="" width="40" id="score-2" /></p>
+          <p>Player</p>
+        </div>
+      </div>
     </div>
-    
-</div>
-    </div>
-
-    
-</body>
-
+    <script src="start.js"></script>
+  </body>
 </html>
