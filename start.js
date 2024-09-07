@@ -4,7 +4,43 @@ const upStatus = document.getElementById('status-update')
 const firstp = document.getElementById('start-game')
 
 // who is player
-let currentPlayer = 'cross';
+// let currentPlayer = 'cross';
+
+
+
+
+
+
+
+
+// let currentPlayer = null; // Start with no player selected
+// let gofirst = document.getElementById('whowillgof')
+// function whoIsPlayer() {
+//   const players = document.querySelectorAll(".theplayer");
+  
+//   players.forEach(player => {
+//     player.addEventListener('click', (e) => {
+//       // Set current player to the clicked player's ID (either 'circle' or 'cross')
+//       currentPlayer = e.target.closest('.theplayer').id;
+//       alert(`The Starting player is: ${currentPlayer}`);
+//       gofirst.textContent = `${currentPlayer} will go first!`;
+//     });
+//   });
+// }
+// whoIsPlayer();  
+
+
+
+
+
+
+
+
+
+
+
+
+
   // the game
   function startGame(){
     cells.forEach(cell =>{
